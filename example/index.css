@@ -1,0 +1,47 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  font-family: 'Poppins';
+ 
+}
+
+body {
+  font-family: sans-serif;
+}
+.navbar{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+.navbar h1{
+  font-size: 45px;
+  font-weight: 800;
+}
+nav{
+  padding-top: 40px;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+}
+.btn{
+  text-align: center;
+  position: relative;
+  margin-top: 35%;
+}
+.btn1{
+  width: 170px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius:6px;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
